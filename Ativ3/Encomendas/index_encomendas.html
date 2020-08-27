@@ -40,19 +40,19 @@
             </table>
             <br /> Sabor:
             <select name="sabor" id="sabor" required>
-                <option value="">Escolha</option>
-                <option value="1">Chocolate</option>
-                <option value="2">Frutas</option>
-                <option value="3">Misto</option>
+                <option value="" disabled selected>Escolha</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="frutas">Frutas</option>
+                <option value="misto">Misto</option>
             </select> Tipo:
-            <input type="radio" name="tipo" value="0" />Simples
-            <input type="radio" name="tipo" value="1" />Decorado
+            <input type="radio" name="tipo" value="simples" />Simples
+            <input type="radio" name="tipo" value="decorado" />Decorado
             <br> <br> Tamanho: <input type="number" name="peso" min="1" max="10"> Kg
             <input type="checkbox" name="diet" /> Diet?
             <br><br>
-            <label for="obsevação">Observações:</label>
+            <label for="obsevacao">Observações:</label>
             <br>
-            <textarea name="observação" placeholder="Observações sobre o bolo" rows="3" cols="80"></textarea>
+            <textarea name="observacao" placeholder="Observações sobre o bolo" rows="3" cols="80"></textarea>
             <br><br>
             <input type="submit" value="Enviar Pedido">
             <input type="reset" value="limpar">
