@@ -1,0 +1,11 @@
+html {
+    background: linear-gradient(to bottom, moccasin, peru);
+}
+
+header {
+    background: orange;
+}
+
+#texto_destaque {
+    color: steelblue;
+}

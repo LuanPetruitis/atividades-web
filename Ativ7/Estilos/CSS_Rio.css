@@ -1,0 +1,11 @@
+html {
+    background: linear-gradient(to bottom, powderblue, midnightblue);
+}
+
+header {
+    background: midnightblue;
+}
+
+#texto_destaque {
+    color: gold;
+}

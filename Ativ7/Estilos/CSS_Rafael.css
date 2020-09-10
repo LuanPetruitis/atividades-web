@@ -1,0 +1,11 @@
+html {
+    background: linear-gradient(to bottom, springgreen, seagreen);
+}
+
+header {
+    background: forestgreen;
+}
+
+#texto_destaque {
+    color: darkslategray;
+}
