@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./Estilos/principal.css" />
+    <link rel="icon" href="Imagens/Globo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chicle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <script src="./Scripts/jscript.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <select name="pais" id="sel_pais" onchange="funTrocaPais()">
+                <option value="" selected disabled>Selecione o País...</option>
+                <option value="Alemanha">Alemanha</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Espanha">Espanha</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="França">França</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Suíça">Suíça</option>
+            </select>
+        </div>
+        <div>
+            <a href="#top"><img src="./Imagens/Home.png" alt="Home" title="home"></a>
+            <a onclick="location.reload()"><img src="./Imagens/Reload.png" alt="Recarregar" title="Recarregar"></a>
+            <a href="#bandeiras"><img src="./Imagens/Globo.png" alt="Bandeiras" title="Bandeiras"></a>
+        </div>
+        <div>
+            <select id="sel_fonte" onchange="funTrocaFonte()">
+        <option value="" selected disabled>Selecione a Fonte...</option>
+        <option value="Amarante">Amarante</option>
+        <option value="Chicle">Chicle</option>
+        <option value="Lalezar">Lalezar</option>
+    </select>
+        </div>
+    </header>
+    <main id="principal">
+        <div class="container_capa">
+            <h2 id="texto_capa">Descubra o mundo</h2>
+            <img src="./Imagens/Paises_capa.jpg" id="img_capa" alt="Países" title="Países">
+        </div>
+        <h2 id="bandeiras">Bandeiras</h2>
+        <div class="container_destaque">
+            <img src="./Imagens/Globo.png" id="img_destaque" alt="Destaque" title="Destaque">
+            <p id="p_destaque">Selecione uma bandeira</p>
+        </div>
+        <div class="container">
+            <div>
+                <img src="./Imagens/Alemanha.png" alt="Alemanha" onmouseover="funExibe(this.alt, this.src)" />
+            </div>
+            <div>
+                <img src="./Imagens/Argentina.png" alt="Argentina" onmouseover="funExibe(this.alt, this.src)" />
+            </div>
+
+            <div>
+                <img src="./Imagens/Brasil.png" alt="Brasil" onmouseover="funExibe(this.alt, this.src)" />
+            </div>
+
+            <div>
+                <img src="./Imagens/Espanha.png" alt="Espanha" onmouseover="funExibe(this.alt, this.src)" />
+            </div>
+
+            <div>
+                <img src="./Imagens/Estados Unidos.png" alt="Estados Unidos" onmouseover="funExibe(this.alt, this.src)" />
+            </div>
+
+            <div>
+                <img src="./Imagens/França.png" alt="França" onmouseover="funExibe(this.alt, this.src)" />
+            </div>
+
+            <div>
+                <img src="./Imagens/Portugal.png" alt="Portugal" onmouseover="funExibe(this.alt, this.src)" />
+            </div>
+
+            <div>
+                <img src="./Imagens/Suíça.png" alt="Suíça" onmouseover="funExibe(this.alt, this.src)" />
+            </div>
+
+
+        </div>
+    </main>
+
+</body>
+
+</html>
